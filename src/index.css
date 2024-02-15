@@ -1,0 +1,17 @@
+/* src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.active-indicator::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 3px; /* Adjust the height of the indicator */
+    border-radius: 2px;
+    background-color: #282872;
+}
+
